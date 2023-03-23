@@ -71,7 +71,7 @@ p, span, a{
 
 #header{
 	min-height: 100vh;
-	background-image: url(https://art.ngfiles.com/images/1256000/1256498_mixboxmixing_simple-black-cyan-background-1.png?f1588367517);
+	background-image: url("../assets/black-cyan-bg.png");
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -602,7 +602,7 @@ input:focus ~ .label, textarea:focus ~ .label[for=message], input.has-value ~ .l
 /*  F O O T E R  */
 
 footer{
-    background-image: url(https://art.ngfiles.com/images/1256000/1256498_mixboxmixing_simple-black-cyan-background-1.png?f1588367517);
+    background-image: url("../assets/black-cyan-bg.png");
     position: relative;
     padding: 80px;
 }
