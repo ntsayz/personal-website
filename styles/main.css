@@ -99,7 +99,6 @@ p, span, a{
     z-index: 1;
 }
 
-
 .nav-content{
 	position: relative;
     display: none;
@@ -110,6 +109,9 @@ p, span, a{
 .nav-content > li{
     list-style: none;
     padding: 5px 20px;
+}
+.just-dont{
+    color: #11ABB0 !important;
 }
 
 .nav-content > li > a{
