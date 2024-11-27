@@ -1,331 +1,1045 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Personal website template</title>
-      
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-      
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" type="text/css">
-        <link rel="stylesheet" href="styles/main.css" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-      
-      </head>
-      
-      <body id="body" data-spy="scroll" data-target="#navigation" data-offset="30">
-      
-        <div id="header" class="container-fluid d-flex">
-      
-          <div class="menu-overlay"></div>
-      
-          <div class="menu">
-            <div class="toggler">
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
-            </div>
-      
-            <ul class="nav-content" id="navigation">
-              <li><a class="nav-link" href="#header">Home</a></li>
-              <li><a class="nav-link" href="#about">About Me</a></li>
-              <li class="dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop">CV</a>
-                <div id="dropdown-menu">
-                  <ul>
-                    <li><a class="dropdown-item" href="#education">Education</a></li>
-                    <li><a class="dropdown-item" href="#experience">Experience</a></li>
-                    <li><a class="dropdown-item" href="#skills">Skills</a></li>
-                    
-                    
-                   
-                  </ul>
-                </div>
-              </li>
-              <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-              <li><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-          </div>
-      
-      
-      
-          <div class="row align-items-center justify-content-center text-center">
-            <div>
-              <h1>Ntsay Zacarias</h1>
-              <hr>
-              <h4>Computer and Software Engineering Student</h4>
-            </div>
-          </div>
-      
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ntsay Zacarias</title>
+  <link rel="icon" type="image/png" href="./assets/images/icon.svg" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="./assets/images/icon.svg" />
+  <link rel="shortcut icon" href="./assets/images/icon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/icon.svg" />
+  <meta property="og:title" content="Ntsay Zacarias" />
+  <meta property="og:description" content="Get to know me" />
+  <meta property="og:image" href="./assets/images/img.png" content="./assets/images/img.png" />
+  <meta property="og:url" content="https://ntsayz.dev" />
+  <meta property="og:type" content="website" />
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/icon.svg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar1.jpg" alt="Ntsay Zacarias" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ntsay Zacarias">Ntsay Zacarias</h1>
+
+          <p class="title">Software Developer</p>
         </div>
-      
-        <div id="about" class="container-fluid">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-2 col-sm-12 picture">
-                <img src="https://www.atomix.com.au/media/2015/06/atomix_user31.png" class="rounded-circle" alt="picture">
-              </div>
-              <div class="col-md-9 col-sm-12 offset-md-1">
-                <h2>About Me</h2>
-                <p>As a prospective Computer/Software Engineer, with a interest in astrophysics. I am driven by a strong passion for the field and a desire to make a meaningful impact through my work.</p>
-                <br>
-                <p>With a very solid foundation in Computer Science and a willingness to learn, I am eager to dive into the world of Software Engineering and contribute my skills and expertise to the industry</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      
-        <div class="container-fluid" id="cv">
-          <div class="container">
 
-            <hr id="education">
-      
-            <div class="row">
-              <div class="col-md-2 col-sm-12">
-                <h3>Education</h3>
-              </div>
-              <div class="col-md-9 col-sm-12 offset-md-1">
-                <div class="box">
-                    <h4>High School Diploma</h4>
-                    <h6>Colégio Kitabu&emsp;&#8226;&emsp;Feb 2014 - Nov 2019</h6>
-                    <p>Maputo, Mozambique</p>
-                  </div>
-                <div class="box">
-                  <h4>Bachelor in Informatics and Computing
-                    Engineering (L.EIC)</h4>
-                  <h6>University of Porto - Faculdade de Engenharia (FEUP)&emsp;&#8226;&emsp;Sep 2021 - Present</h6>
-                  <p>Porto, Portugal</p>
-                </div>
-              </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
             </div>
 
-            <hr id="experience">
-      
-            <div class="row">
-              <div class="col-md-2 col-sm-12">
-                <h3>Experience</h3>
-              </div>
-              <div class="col-md-9 col-sm-12 offset-md-1">
-                <div class="exp">
-                  <div class="box">
-                    <h4>Intern</h4>
-                    <h6>Pynkiwi, Lisbon&emsp;&#8226;&emsp;Mar 2021 - May 2021</h6>
-                    - Served as a middle-man between management and third-party mobile application developers.
-                  </div>
-      
-                  <div class="box">
-                    <h4>Junior Software Engineer</h4>
-                    <h6>Pynkiwi, Lisbon&emsp;&#8226;&emsp;May 2021 - Nov 2021</h6>
-                     - Developed authentication for a mobile application (iOS) using Swift and Firebase as the BaaS.<br>
-                    - Continued development of the previous application with React Native.
-                  </div>
-                </div>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ntsayyzacarias@hotmail.com" class="contact-link">ntsayyzacarias@hotmail.com</a>
             </div>
 
-            <hr id="skills">
-      
-            
-            <div class="row">
-              <div class="col-md-2 col-sm-12">
-                <h3>Skills</h3>
-              </div>
-              <div class="col-md-9 col-sm-12 offset-md-1">
-      
-                <div class="skills">
-                  <h4>Programming languages</h4>
-      
-                  <div class="skill-item">
-                    <h4>C++</h4>
-                    <div class="progress">
-                      <div class="progress-bar" style="width:100%"></div>
-                    </div>
-                  </div>
-                  <div class="skill-item">
-                    <h4>Python</h4>
-                    <div class="progress">
-                      <div class="progress-bar" style="width:80%"></div>
-                    </div>
-                  </div>
-      
-                  <div class="skill-item">
-                    <h4>Java</h4>
-                    <div class="progress">
-                      <div class="progress-bar" style="width:60%"></div>
-                    </div>
-                  </div>
+          </li>
 
-                  <div class="skill-item">
-                    <h4>HTML/CSS/JS</h4>
-                    <div class="progress">
-                      <div class="progress-bar" style="width:80%"></div>
-                    </div>
-                  </div>
-      
-      
-                  
-                  <div class="skill-item">
+          <li class="contact-item">
 
-                    <h4>C</h4>
-                    <div class="progress">
-                      <div class="progress-bar" style="width:55%"></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <h4>SQL</h4>
-                    <div class="progress">
-                      <div class="progress-bar" style="width:50%"></div>
-                    </div>
-                  </div>
-      
-                </div>
-      
-                <div class="skills">
-                  <h4>Frameworks/Toolkits</h4>
-      
-                  <div class="skill-item">
-                    <h4>React</h4>
-                    <div class="progress">
-                      <div class="progress-bar" style="width:60%"></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <h4>React Native</h4>
-                    <div class="progress">
-                      <div class="progress-bar" style="width:55%"></div>
-                    </div>
-                  </div>
-      
-                  <div class="skill-item">
-                    <h4>JUnit</h4>
-                    <div class="progress">
-                      <div class="progress-bar" style="width:50%"></div>
-                    </div>
-                  </div>
-      
-      
-                  <div class="skill-item">
-                    <h4>Flutter</h4>
-                    <div class="progress">
-                      <div class="progress-bar" style="width:70%"></div>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="skills">
-                    <h4>General (Tech)</h4>
-
-                    <div class="skill-item">
-                        <h4>Git</h4>
-                        <div class="progress">
-                          <div class="progress-bar" style="width:100%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <h4>Linux</h4>
-                        <div class="progress">
-                          <div class="progress-bar" style="width:70%"></div>
-                        </div>
-                    </div>
-
-
-
-                </div>
-      
-                <div class="skills">
-                  <h4>Languages</h4>
-      
-                  <div class="skill-item">
-                    <h4>English</h4>
-                    <div class="progress">
-                      <div class="progress-bar" style="width:100%"></div>
-                    </div>
-                  </div>
-      
-      
-                  <div class="skill-item">
-                    <h4>Portuguese</h4>
-                    <div class="progress">
-                      <div class="progress-bar" style="width:100%"></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <h4>Spanish</h4>
-                    <div class="progress">
-                      <div class="progress-bar" style="width:50%"></div>
-                    </div>
-                  </div>
-      
-                </div>
-      
-              </div>
-      
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
-      
-          </div>
-        </div>
-      
-        <div class="container-fluid" id="portfolio">
-          <h2>Projects</h2>
-      
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-md-6 col-xs-12">
-                <img src="assets/untitledgif.gif">
-                <div class="overlay">
-                  <h3 class="project-title"><a style="color:white;
-                    text-decoration: none;" href="https://github.com/ntsayz/alcyone">RIGID BODY MOVEMENT IN A VACCUM</a></h3>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
-                <img src="assets/astrobattlegameplay.gif">
-                <div class="overlay">
-                    <h3 class="project-title"><a style="color:white;
-                        text-decoration: none;" href="https://github.com/ntsayz/astrobattle">ASTROBATTLE - Arcade Battleship Game</a></h3>
-                </div>
-              </div>
-            
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+351930640421" class="contact-link">+351 930 640 421</a>
             </div>
-          </div>
-      
-        </div>
-      
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-05-19">May 19, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Porto, Portugal</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+<!--
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+-->
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a passionate Software Developer, currently pursuing my Master's in Informatics and Computing Engineering, who loves to build projects of all kinds, driven by a deep desire to learn more. 
+            From conception to the final product, I enjoy the entire process of bringing ideas to life.
+          </p>
         
-        <hr id="contact">
-        <footer>
-      
-          <div class="footer-content">
-      
-            <div>
-              <h4>Location</h4>
-              <p>Portugal</p>
+          <p>
+            My interests span a wide range of fields, including astrophysics, embedded systems, business, and artificial intelligence.
+             I'm always looking to push boundaries and solve complex problems, embracing these challenges as a chance to expand my skills and knowledge.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Physics Simulator</h4>
+
+                <p class="service-item-text">
+                  Developing a physics simulation tool to model and visualize real-world systems, combining software development with scientific principles.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of websites.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="" alt="" width="80" data-modal-img>
+              </figure>
+
+              <img src="" alt="quote icon">
             </div>
-      
-            <div>
-              <h4>Email</h4>
-              <p><a href="mailto:ntsayyzacarias@hotmail.com">ntsayyzacarias@hotmail.com</a></p>
+
+          
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
-      
-            <div>
-              <h4>Social</h4>
-              <a href="https://github.com/ntsayz" target="_blank">
-                <i class="fab fa-github">Github</i>
-              </a>
-              
-            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Integrated Master's in Informatics and Computing Engineering</h4>
+            
+              <span>2021 — Present</span>
+              <a href="https://sigarra.up.pt/feup/en/web_page.inicial">
+              <p class="timeline-text">
+                Universidade do Porto - Faculdade de Engenharia (FEUP)
+              </p>
+            </a>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Colégio Kitabu</h4>
+
+              <span>2015 — 2019</span>
+
+              <p class="timeline-text">
+                Maputo, Mozambique
+              </p>
+
+            </li>
+
+          </ol>
+
+      </section>
+
+
+      <section class="timeline" style="color: var(--light-gray-70);">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
           </div>
       
-        </footer>
+          <h3 class="h3">Experience</h3>
+        </div>
       
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-        <script src="scripts/main.js"></script>
+        <ol class="timeline-list" style="color: var(--light-gray-70);">
       
-      </body>
+          <li class="timeline-item">
+      
+            <h4 class="h4 timeline-item-title" style="color: white;">Software Developer</h4>
+            <span style="color: var(--light-gray-70);">11/2023 — Present | Porto, Portugal</span>
+      
+            <p class="timeline-text">
+              <ul style="list-style-type: disc; margin-left: 20px; color: white;">
+                <li>Developing a cross-platform mobile app to facilitate data collection and analysis for researchers, integrating proprietary temperature sensors via NFC.</li>
+                <li>Collaborating with electrotechnical engineers to ensure sensor communication meets specifications.</li>
+                <li>Enhancing the app's UX to adapt to real-world field conditions faced by biologists.</li>
+                <li>Building a specialized app for cataloguing biodiversity data, enabling researchers to document species with photos, videos, notes, and recordings.</li>
+                <li>Managing Linux ERDDAP servers, performing maintenance, updates, and creating scripts to improve researchers’ interaction with the servers.</li>
+              </ul>
+            </p>
+      
+          </li>
+      
+          <li class="timeline-item">
+      
+            <h4 class="h4 timeline-item-title" style="color: white;">Co-Founder & Lead Software Developer</h4>
+            <span style="color: var(--light-gray-70);">07/2023 — Present | Maputo, Mozambique</span>
+      
+            <p class="timeline-text">
+              <ul style="list-style-type: disc; margin-left: 20px; color: white;">
+                <li>Co-founded Trans Atlas Solutions to launch two businesses: Atlas Store (a tech and electronics retail platform) and Mova (a car marketplace and rental app).</li>
+                <b></b>
+                <li>Established supplier relationships for Atlas Store, sourcing high-quality tech gadgets and electronics internationally.</li>
+                <li>Developed Mova's mobile apps (Android and iOS) using Flutter and set up servers using Node.js, Express, and Docker on a Linux server.</li>
+                <li>Integrated local payment gateways and AWS S3 for storing car images.</li>
+                <li>Handled company logistics, including setting up the legal entity and hiring an accounting firm for regulatory compliance.</li>
+              </ul>
+            </p>
+      
+          </li>
+      
+          <li class="timeline-item">
+      
+            <h4 class="h4 timeline-item-title" style="color: white;">Junior Software Engineer</h4>
+            <span style="color: var(--light-gray-70);">05/2021 — 11/2021 | Lisbon, Portugal</span>
+      
+            <p class="timeline-text">
+              <ul style="list-style-type: disc !important; list-style-type: disc; margin-left: 20px; color: white;">
+                <li>Developed authentication for a mobile application (iOS) using Swift and Firebase as the BaaS.</li>
+                <li>Continued development of the application with React Native to expand features and improve functionality.</li>
+              </ul>
+            </p>
+      
+          </li>
+      
+          <li class="timeline-item">
+      
+            <h4 class="h4 timeline-item-title" style="color: white;">Intern</h4>
+            <span style="color: var(--light-gray-70);">03/2021 — 05/2021 | Lisbon, Portugal</span>
+      
+            <p class="timeline-text">
+              <ul style="list-style-type: disc; margin-left: 20px; color: white;">
+                <li>Served as a liaison between management and third-party mobile application developers to ensure smooth project execution.</li>
+              </ul>
+            </p>
+      
+          </li>
+      
+        </ol>
+      
+      </section>
+
+      <section class="timeline" style="color: var(--light-gray-70);">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+      
+          <h3 class="h3">Projects</h3>
+        </div>
+      
+        <ol class="timeline-list" style="color: var(--light-gray-70);">
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title" style="color: white;">Social Impact Platform</h4>
+            <span style="color: var(--light-gray-70);">11/2024 — Present</span>
+      
+            <p class="timeline-text">
+              <ul style="list-style-type: disc; margin-left: 20px; color: white;">
+                <li>Developing a high-performance web platform using Svelte, Tailwind, Express, and PostgreSQL.</li>
+                <li>Planning to make scalable data pipelines for actionable analytics</li>
+                <li>Designing for social impact, addressing community challenges and optimizing engagement strategies.</li>
+              </ul>
+            </p>
+          </li>
+      
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title" style="color: white;">Calorie Estimation App</h4>
+            <span style="color: var(--light-gray-70);">11/2024 — Present | Computer Vision</span>
+      
+            <p class="timeline-text">
+              <ul style="list-style-type: disc; margin-left: 20px; color: white;">
+                <li>Currently in development, being made with Swift and leveraging Apple Vision Core ML Kit.</li>
+                <li>Using YOLOv3 object detection model as a foundation for calorie estimation based on food recognition.</li>
+              </ul>
+            </p>
+          </li>
+      
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title" style="color: white;">Near Earth Object Classification</h4>
+            <span style="color: var(--light-gray-70);">02/2024 — 05/2024 | AI </span>
+      
+            <p class="timeline-text">
+              <ul style="list-style-type: disc; margin-left: 20px; color: white;">
+                <li>Developed machine learning models (Neural Networks, SVM, Random Forest) to classify asteroids.</li>
+                <li>Utilized NASA datasets to predict hazardous versus non-hazardous objects.</li>
+                <li>Analyzed models based on metrics like precision-recall and AUC to ensure reliable performance.</li>
+              </ul>
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title" style="color: white;">Temperature Sensor with LED Matrix</h4>
+            <span style="color: var(--light-gray-70);">10/2024 — Present | Embedded Systems</span>
+      
+            <p class="timeline-text">
+              <ul style="list-style-type: disc; margin-left: 20px; color: white;">
+                <li>Designed an Arduino-based system to display real-time temperature data using an LM35 sensor.</li>
+                <li>Programmed a 16x2 LED matrix to show readings dynamically.</li>
+                <li>Designed and built the circuits, integrating hardware and software seamlessly.</li>
+              </ul>
+            </p>
+          </li>
+      
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title" style="color: white;">Game Server</h4>
+            <span style="color: var(--light-gray-70);">02/2024 — 05/2024 | Distributed Systems</span>
+      
+            <p class="timeline-text">
+              <ul style="list-style-type: disc; margin-left: 20px; color: white;">
+                <li>Developed a game server using Java and virtual threads to manage load efficiently.</li>
+                <li>Focused on understanding system architecture and optimizing performance under heavy usage.</li>
+              </ul>
+            </p>
+          </li>
+      
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title" style="color: white;">Vacuum Rigid Body Simulation</h4>
+            <span style="color: var(--light-gray-70);">2022 — Current</span>
+      
+            <p class="timeline-text">
+              <ul style="list-style-type: disc; margin-left: 20px; color: white;">
+                <li>Developing a desktop application using C++ to simulate rigid body physics in a vacuum.</li>
+                <li>Designed to provide accurate simulations for academic and experimental purposes.</li>
+              </ul>
+            </p>
+          </li>
+      
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title" style="color: white;">Sports Matchmaking App</h4>
+            <span style="color: var(--light-gray-70);">02/2023 — 05/2023 | FEUP</span>
+      
+            <p class="timeline-text">
+              <ul style="list-style-type: disc; margin-left: 20px; color: white;">
+                <li>Utilized Flutter to design and implement a user-friendly mobile app interface.</li>
+                <li>Integrated Firebase for real-time messaging functionality, enabling group chats.</li>
+                <li>Followed Agile methodology, ensuring iterative releases with continuous improvement.</li>
+                <li>Performed unit and acceptance testing to maintain code quality and robust functionality.</li>
+              </ul>
+            </p>
+          </li>
+      
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title" style="color: white;">Ticket Management System</h4>
+            <span style="color: var(--light-gray-70);">04/2023 — 05/2023 | FEUP</span>
+      
+            <p class="timeline-text">
+              <ul style="list-style-type: disc; margin-left: 20px; color: white;">
+                <li>Developed a responsive and accessible website using (HTML+CSS+JS) on the front-end, PHP and SQL on the backend.</li>
+              </ul>
+            </p>
+          </li>
+      
+        </ol>
+      
+      </section>
+      </article>
+
+        
+
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+      
+        <section class="projects">
+      
+          <ul class="filter-list">
+      
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+      
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+      
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+      
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+      
+            <li class="filter-item">
+              <button data-filter-btn>Embedded Systems</button>
+            </li>
+      
+            <li class="filter-item">
+              <button data-filter-btn>AI</button>
+            </li>
+      
+            <li class="filter-item">
+              <button data-filter-btn>Distributed Systems</button>
+            </li>
+      
+          </ul>
+      
+          <div class="filter-select-box">
+      
+            <button class="filter-select" data-select>
+      
+              <div class="select-value" data-selecct-value>Select category</div>
+      
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+      
+            </button>
+      
+            <ul class="select-list">
+      
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+      
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+      
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+      
+              <li class="select-item">
+                <button data-select-item>Embedded Systems</button>
+              </li>
+      
+              <li class="select-item">
+                <button data-select-item>AI</button>
+              </li>
+      
+              <li class="select-item">
+                <button data-select-item>Distributed Systems</button>
+              </li>
+      
+            </ul>
+      
+          </div>
+      
+          <ul class="project-list">
+      
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/wip.png" alt="ticket management" loading="lazy">
+                </figure>
+                <h3 class="project-title">Ticket Management System</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/wip.png" alt="sports matchmaking" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sports Matchmaking</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="https://play.google.com/store/apps/details?id=electricblue.eu.envlogger_viewer.full">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/envlogger_header.png" alt="envlogger viewer" loading="lazy">
+                </figure>
+                <h3 class="project-title">Envlogger Viewer</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="https://github.com/ntsayz/alcyone">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/vaccum.gif" alt="rigid body simulation" loading="lazy">
+                </figure>
+                <h3 class="project-title">Simulating Rigid Body Dynamics in Vacuum</h3>
+                <p class="project-category">Simulator</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/wip.png" alt="news website" loading="lazy">
+                </figure>
+                <h3 class="project-title">News Website</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="AI">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/ROC_complete.png" alt="near earth objects" loading="lazy" width="50">
+                </figure>
+                <h3 class="project-title">Near Earth Object Classification (NASA dataset)</h3>
+                <p class="project-category">AI</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="embedded systems">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/arduino.jpg" alt="temperature sensor" loading="lazy">
+                </figure>
+                <h3 class="project-title">Temperature Sensor with LED Matrix</h3>
+                <p class="project-category">Embedded Systems</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/wip.png" alt="calorie estimation" loading="lazy">
+                </figure>
+                <h3 class="project-title">Calorie Estimation Mobile App</h3>
+                <p class="project-category">Computer Vision</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="distributed systems">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/wip.png" alt="game server" loading="lazy">
+                </figure>
+                <h3 class="project-title">Game Server</h3>
+                <p class="project-category">Distributed Systems</p>
+              </a>
+            </li>
+      
+          </ul>
+      
+        </section>
+      
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387199.3484482969!2d-8.734930417238126!3d41.1494511634871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2465b6136d8305%3A0xf18e41c972f1a4e5!2sPorto%2C%20Portugal!5e0!3m2!1sen!2spt!4v1647608789441!5m2!1sen!2spt"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
 </html>
