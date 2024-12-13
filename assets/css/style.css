@@ -830,6 +830,19 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+.timeline-list li {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  list-style-type: disc; /* Ensures bullet points are visible */
+  margin-left: 20px; /* Adjusts indentation for bullets */
+}
+.timeline-list li a {
+  color: var(--vegas-gold);
+  text-decoration: none; /* Optional: Removes underline */
+}
+
 
 
 /**
